@@ -40,7 +40,7 @@
 		<script defer>
 			let todo;
 			let add_inp;
-			let list = [[true, "IDK"], [false, "OH"]];
+			let list = [];
 
 			setTimeout(()=>{
 				todo = document.getElementById("todo");
@@ -131,11 +131,10 @@
 			</tr>
 		</table>
 
-		<ol id="todo">
-
-		</ol>
+		<h3>TODO List</h3>
+		<ol id="todo"></ol>
 		<div>
-			Add to list
+			Add
 			<input type="text" id="add">
 			<input type="button" value="Add" onclick="add()">
 		</div>
